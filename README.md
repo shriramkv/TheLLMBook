@@ -1,4 +1,4 @@
-# Generative AI and Large Language Models: companion code (Chapters 1 to 3)
+# Companion code for Generative AI and Large Language Models
 
 Code for the sample chapters of *Generative AI and Large Language Models: Concepts, Architectures and Hands-on Applications*
 (Dr. Shriram K. Vasudevan, Arun G K, Subashri Vasudevan).
