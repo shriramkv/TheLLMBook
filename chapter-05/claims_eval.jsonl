@@ -1,0 +1,6 @@
+{"id": 1, "email": "My car was hit from behind at a signal in Jayanagar on 3rd March. Policy no. MTR-2291-44. Rear bumper damaged.", "expected": {"policy_number": "MTR-2291-44", "claim_type": "MOTOR", "incident_date": null}}
+{"id": 2, "email": "My wife was admitted to hospital on 12/01/2026 for dengue. Policy HLT-77310. Need cashless approval.", "expected": {"policy_number": "HLT-77310", "claim_type": "HEALTH", "incident_date": "2026-01-12"}}
+{"id": 3, "email": "Water from the upstairs flat damaged our ceiling last week. I don't have my policy number with me.", "expected": {"policy_number": null, "claim_type": "PROPERTY", "incident_date": null}}
+{"id": 4, "email": "Flight to Singapore cancelled on 05/02/2026 and my baggage was lost. Travel policy TRV-55102.", "expected": {"policy_number": "TRV-55102", "claim_type": "TRAVEL", "incident_date": "2026-02-05"}}
+{"id": 5, "email": "Scooter skidded on 21/08/2026 near Hosur Road, mudguard broken. MTR-1180-02", "expected": {"policy_number": "MTR-1180-02", "claim_type": "MOTOR", "incident_date": "2026-08-21"}}
+{"id": 6, "email": "Burglary at our home on 30/06/2026, laptop and jewellery stolen. Policy PRP-40021.", "expected": {"policy_number": "PRP-40021", "claim_type": "PROPERTY", "incident_date": "2026-06-30"}}

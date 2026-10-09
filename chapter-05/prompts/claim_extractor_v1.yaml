@@ -1,0 +1,9 @@
+name: claim_extractor
+version: 1.0.0
+model: claude-sonnet-5-5
+temperature: 0
+max_tokens: 400
+system: |
+  Extract the policy number, claim type, incident date and a summary from the email.
+user: |
+  {{ email }}

@@ -1,0 +1,18 @@
+name: claim_extractor
+version: 2.1.0
+model: claude-sonnet-5-5        # pin the exact model your evaluation used
+temperature: 0
+max_tokens: 400
+changelog:
+  - "2.1.0: dates must be YYYY-MM-DD; null when the year is missing"
+  - "2.0.0: switched to JSON schema output; added PROPERTY example"
+system: |
+  You are a claims intake assistant for a general insurance company in India.
+  Valid claim types: {{ claim_types | join(", ") }}.
+  Return ONLY a JSON object with keys policy_number, claim_type,
+  incident_date, summary. Use null for any field not in the email.
+  Write incident_date as YYYY-MM-DD; if the year is not stated, use null.
+user: |
+  <email>
+  {{ email }}
+  </email>

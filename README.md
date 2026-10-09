@@ -1,4 +1,4 @@
-# Companion code for Generative AI and Large Language Models
+# Generative AI and Large Language Models: companion code
 
 Code for the sample chapters of *Generative AI and Large Language Models: Concepts, Architectures and Hands-on Applications*
 (Dr. Shriram K. Vasudevan, Arun G K, Subashri Vasudevan).
@@ -23,6 +23,12 @@ Code for the sample chapters of *Generative AI and Large Language Models: Concep
 | chapter-03 | download_data.py | 3.6 | internet |
 | chapter-03 | mini_gpt.py | 3.6, Lab 3.1 | torch (about 7 min on a 2-core CPU) |
 | chapter-03 | visualise_attention.py | 3.7, Figure 3.4 | torch, matplotlib; run mini_gpt.py first |
+| chapter-04 | lab_4_1_part_a_bpe.py | 4.1, Lab 4.1 Part A | input.txt from chapter-03 |
+| chapter-04 | lab_4_1_part_b_tokeniser_languages.py | 4.1, Figure 4.1, Lab 4.1 Part B | tiktoken, internet on first run |
+| chapter-04 | lab_4_1_part_c_kv_cache.py | 4.4, Lab 4.1 Part C | torch; copy mini_gpt.py and minigpt.pt from chapter-03 |
+| chapter-05 | structured.py | 5.4 | pydantic |
+| chapter-05 | load_prompt.py, prompts/*.yaml | 5.5 | pyyaml, jinja2 |
+| chapter-05 | providers.py, workbench.py, claims_eval.jsonl | 5.8, Lab 5.1 | run `python workbench.py stub` offline, or `anthropic` / `openai` with an API key |
 
 Run each script from inside its own folder, for example:
 
