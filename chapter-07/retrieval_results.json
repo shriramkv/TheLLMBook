@@ -1,0 +1,57 @@
+{
+ "main": {
+  "BM25": {
+   "hit@1": 67,
+   "hit@3": 89,
+   "hit@10": 94,
+   "mrr": 0.78,
+   "exact": 100,
+   "paraphrase": 75,
+   "general": 92
+  },
+  "Dense": {
+   "hit@1": 75,
+   "hit@3": 89,
+   "hit@10": 100,
+   "mrr": 0.83,
+   "exact": 92,
+   "paraphrase": 92,
+   "general": 83
+  },
+  "Hybrid (RRF)": {
+   "hit@1": 64,
+   "hit@3": 89,
+   "hit@10": 100,
+   "mrr": 0.78,
+   "exact": 100,
+   "paraphrase": 83,
+   "general": 83
+  }
+ },
+ "chunk_sizes": {
+  "20-word chunks, with titles": {
+   "chunks": 127,
+   "BM25": 86,
+   "Dense": 86,
+   "Hybrid (RRF)": 92
+  },
+  "50-word chunks, with titles": {
+   "chunks": 56,
+   "BM25": 89,
+   "Dense": 89,
+   "Hybrid (RRF)": 89
+  },
+  "120-word chunks, with titles": {
+   "chunks": 30,
+   "BM25": 89,
+   "Dense": 86,
+   "Hybrid (RRF)": 89
+  },
+  "50-word chunks, without titles": {
+   "chunks": 56,
+   "BM25": 81,
+   "Dense": 83,
+   "Hybrid (RRF)": 78
+  }
+ }
+}

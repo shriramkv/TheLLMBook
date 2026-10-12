@@ -1,0 +1,12 @@
+{"question": "What does alarm E-214 mean on the compressor?", "reference": "E-214 trips the compressor when the airend discharge temperature exceeds 110 degrees Celsius. Check the oil level, the oil cooler fins and the cooling fan."}
+{"question": "How often should the RC-AF-090 filter be changed?", "reference": "Every 2,000 hours, or sooner if the differential pressure indicator turns red; inspect it weekly in dusty sites."}
+{"question": "Which parameter sets the acceleration time on the VX-40?", "reference": "Parameter P2.10, set to at least 10 seconds for pumps to avoid water hammer."}
+{"question": "Which oil goes into the RC-75?", "reference": "RC-Lube 46 synthetic oil, 18 litres."}
+{"question": "The pump sounds like it has stones rattling inside. What is happening?", "reference": "The pump is cavitating because the net positive suction head available is below what the pump requires."}
+{"question": "There is moisture coming out of the air tools in the workshop.", "reference": "Condensate is not being removed. Check the receiver auto-drain RC-AD-015 and that the refrigerated dryer is on with a dew point of 3 to 5 degrees Celsius."}
+{"question": "Can I save electricity by slowing down a pump?", "reference": "Yes. Pump power varies with the cube of speed, so a 20 per cent speed reduction cuts power to about half."}
+{"question": "What safety gear do I need near the compressors?", "reference": "Safety shoes, safety glasses and ear protection, because noise near running compressors exceeds 85 dB(A)."}
+{"question": "How much grease goes into the pump bearings?", "reference": "15 grams in the drive-end bearing and 10 grams in the non-drive-end bearing, every 2,000 running hours, with NLGI 2 lithium complex grease."}
+{"question": "What is the warranty period for a new compressor?", "reference": "18 months from dispatch or 12 months from commissioning, whichever is earlier."}
+{"question": "Which filter fits an RC-75?", "reference": "The RC-75 uses three filters: the intake air filter RC-AF-090, the oil filter RC-OF-118 and the separator element RC-SEP-220."}
+{"question": "What is the part number of the NF-200 impeller nut?", "reference": "I could not find this in the service documents."}

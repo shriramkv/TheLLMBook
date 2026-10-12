@@ -1,0 +1,413 @@
+{
+ "docs": [
+  {
+   "id": "SOP-101",
+   "title": "Daily start-up checks for NF-200 centrifugal pumps",
+   "text": "Before starting an NF-200 pump, confirm the suction valve is fully open and the discharge valve is about one quarter open. Check that the casing is primed: open the vent cock until a steady stream of water appears. Inspect the coupling guard and confirm it is fixed. Start the motor and open the discharge valve slowly over 30 seconds. Never run the pump with the suction valve closed, as the impeller will overheat within minutes. Record the suction and discharge pressure in the shift log."
+  },
+  {
+   "id": "SOP-102",
+   "title": "Mechanical seal replacement, NF-200",
+   "text": "Isolate the pump electrically and lock out the breaker. Close both valves and drain the casing. Remove the coupling spacer and the bearing frame bolts, then withdraw the back pull-out assembly. Remove the impeller nut (left-hand thread) and the impeller. Slide out the old seal, clean the shaft sleeve and check it for scoring. Fit the new seal kit, part number NF-MS-2210, without touching the seal faces with bare fingers. Use only the supplied rubber lubricant, never grease. Reassemble and run for ten minutes, checking for drips at the gland."
+  },
+  {
+   "id": "SOP-103",
+   "title": "Bearing lubrication schedule for NF-series pumps",
+   "text": "NF-200 and NF-350 pumps use grease-lubricated ball bearings. Regrease every 2,000 running hours with lithium complex grease, grade NLGI 2. Add 15 grams to the drive-end bearing and 10 grams to the non-drive-end bearing. Over-greasing raises bearing temperature; if the bearing housing exceeds 80 degrees Celsius after greasing, open the relief plug and run the pump for 30 minutes to purge excess grease."
+  },
+  {
+   "id": "SOP-104",
+   "title": "Impeller clearance adjustment, NF-350",
+   "text": "The NF-350 uses a semi-open impeller whose front clearance must be set between 0.3 and 0.5 millimetres. Loosen the bearing housing lock bolts, turn the adjusting screws clockwise until the impeller just touches the casing, then back off one sixth of a turn, which equals 0.4 millimetres. Lock the bolts and rotate the shaft by hand to confirm it turns freely. Excessive clearance reduces flow and head, especially when pumping slurry."
+  },
+  {
+   "id": "SOP-105",
+   "title": "Lock-out tag-out procedure for rotating equipment",
+   "text": "Every maintenance task on pumps, compressors and fans requires lock-out tag-out. Inform the shift supervisor, switch off the equipment at the local panel, open the breaker in the motor control centre and fit your personal padlock and tag. Try to start the equipment from the local panel to verify isolation. For compressors, also vent the receiver to atmospheric pressure. Only the person who fitted a lock may remove it."
+  },
+  {
+   "id": "TRB-201",
+   "title": "Pump does not deliver water",
+   "text": "If an NF-series pump runs but delivers no water, the most common causes are loss of prime, a closed or blocked suction line, or rotation in the wrong direction. Re-prime the casing through the vent cock. Check the foot valve and suction strainer for debris. Confirm rotation matches the arrow on the casing; on a three-phase motor, swap any two supply phases to reverse it."
+  },
+  {
+   "id": "TRB-202",
+   "title": "Excessive vibration in centrifugal pumps",
+   "text": "Vibration above 4.5 millimetres per second RMS on the bearing housing needs investigation. Common causes are shaft misalignment, an unbalanced or damaged impeller, worn bearings, cavitation and loose foundation bolts. Check alignment first with a dial gauge or laser tool: parallel offset must be below 0.05 millimetres. If vibration rises with flow and you hear a gravel-like noise, suspect cavitation and refer to TRB-203."
+  },
+  {
+   "id": "TRB-203",
+   "title": "Cavitation: symptoms and remedies",
+   "text": "Cavitation sounds like gravel passing through the pump and causes pitting on the impeller vanes. It happens when the net positive suction head available falls below what the pump requires. Remedies: raise the liquid level in the suction tank, shorten or enlarge the suction pipe, clean the strainer, reduce the liquid temperature, or throttle the discharge valve to reduce flow. Never throttle the suction valve to control flow."
+  },
+  {
+   "id": "TRB-204",
+   "title": "Pump motor overheating",
+   "text": "If the pump motor trips on thermal overload or its frame is too hot to touch, check the current drawn in each phase against the nameplate. High current on all phases usually means the pump is running far beyond its duty point, often because the discharge valve is wide open on a short pipe run. Unequal phase currents point to a supply fault or a damaged winding. Also check that the cooling fan cover is not blocked by dust or cotton fibre, which is common in textile mills."
+  },
+  {
+   "id": "TRB-205",
+   "title": "Seal leakage after start-up",
+   "text": "A new mechanical seal may weep slightly for the first hour while the faces bed in. Continuous dripping after that indicates damaged faces, a missing O-ring, or a scored shaft sleeve. Running the pump dry even for a few seconds can crack the carbon face. Replace the seal using SOP-102 and check that the casing was fully primed before start-up."
+  },
+  {
+   "id": "SPEC-301",
+   "title": "NF-200 pump technical data",
+   "text": "NF-200 end-suction centrifugal pump. Rated flow 120 cubic metres per hour at 32 metres head. Speed 2,900 rpm. Motor 18.5 kilowatts, 415 volts, three phase. Maximum liquid temperature 90 degrees Celsius. Required NPSH at rated flow: 4.2 metres. Shaft seal: mechanical seal kit NF-MS-2210. Bearings: 6309 drive end and 6308 non-drive end."
+  },
+  {
+   "id": "SPEC-302",
+   "title": "NF-350 slurry pump technical data",
+   "text": "NF-350 semi-open impeller pump for slurries up to 30 per cent solids by weight. Rated flow 200 cubic metres per hour at 25 metres head. Speed 1,450 rpm. Motor 30 kilowatts. Wear parts: impeller NF-350-IMP-07 in high-chrome iron and casing liner NF-350-LN-03. Impeller front clearance 0.3 to 0.5 millimetres, see SOP-104."
+  },
+  {
+   "id": "SOP-401",
+   "title": "Daily checks for RC-75 rotary screw compressors",
+   "text": "Check the oil level in the sight glass with the compressor stopped; it must be between the two marks. Drain condensate from the receiver and the moisture separator. Confirm the discharge pressure setting is 7.5 bar and that the air filter differential indicator shows green. Listen for unusual noise from the airend and record the running hours on the controller display."
+  },
+  {
+   "id": "SOP-402",
+   "title": "Oil and filter change, RC-75",
+   "text": "Change the compressor oil every 4,000 running hours or once a year, whichever comes first, using only RC-Lube 46 synthetic oil, 18 litres. Replace the oil filter RC-OF-118 and the air-oil separator element RC-SEP-220 at the same time. Run the compressor for five minutes after the change, stop it, and top up the oil to the upper mark."
+  },
+  {
+   "id": "SOP-403",
+   "title": "Air filter replacement, RC-75",
+   "text": "Replace the intake air filter RC-AF-090 every 2,000 hours, or sooner if the differential pressure indicator turns red. In dusty sites such as foundries and cement plants, inspect it weekly. Never clean a paper element with compressed air, which damages the filter media and lets dust reach the airend."
+  },
+  {
+   "id": "TRB-501",
+   "title": "RC-75 alarm E-214: high discharge temperature",
+   "text": "Alarm E-214 trips the compressor when the airend discharge temperature exceeds 110 degrees Celsius. Check the oil level, the condition of the oil cooler fins, and the cooling fan. Blocked cooler fins are the most frequent cause in summer. Clean the cooler with low-pressure air from the fan side. If the alarm repeats with a clean cooler and correct oil level, the thermostatic valve RC-TV-031 may be stuck and should be replaced."
+  },
+  {
+   "id": "TRB-502",
+   "title": "RC-75 alarm E-117: low oil pressure",
+   "text": "Alarm E-117 means oil pressure dropped below 1.2 bar during operation. Check the oil level first. If the level is correct, the oil filter RC-OF-118 may be blocked; replace it. A faulty minimum pressure valve can also cause E-117 at start-up. Do not reset E-117 more than twice without finding the cause, as running with low oil pressure can seize the airend."
+  },
+  {
+   "id": "TRB-503",
+   "title": "Compressor not building pressure",
+   "text": "If the RC-75 runs but the pressure does not rise to 7.5 bar, check for air leaks in the distribution network, an inlet valve that does not open fully, or a slipping drive belt. Use an ultrasonic detector to find leaks; a 3 millimetre leak at 7 bar wastes roughly 3 kilowatts of compressor power. Also confirm the air demand has not grown beyond the compressor's 12 cubic metres per minute rating."
+  },
+  {
+   "id": "TRB-504",
+   "title": "Water in the compressed air lines",
+   "text": "Water at the point of use means condensate is not being removed. Check that the receiver auto-drain RC-AD-015 opens on schedule and is not blocked, and that the refrigerated air dryer is switched on and showing a dew point of 3 to 5 degrees Celsius. In the monsoon months humidity rises sharply, so drain intervals may need to be shortened."
+  },
+  {
+   "id": "TRB-505",
+   "title": "RC-75 alarm E-305: motor overload",
+   "text": "Alarm E-305 is raised by the motor protection relay when current exceeds the set value. Possible causes are low supply voltage, a jammed airend, excessive discharge pressure, or a separator element RC-SEP-220 that is clogged and causes high internal pressure. Measure the supply voltage at the terminals; it must be within 10 per cent of 415 volts."
+  },
+  {
+   "id": "SPEC-601",
+   "title": "RC-75 compressor technical data",
+   "text": "RC-75 oil-injected rotary screw compressor. Motor 75 kilowatts. Free air delivery 12 cubic metres per minute at 7.5 bar. Maximum working pressure 8.5 bar. Oil capacity 18 litres of RC-Lube 46. Service intervals: air filter 2,000 hours, oil and oil filter 4,000 hours, separator element 4,000 hours. Noise level 72 dB(A) at one metre."
+  },
+  {
+   "id": "VFD-701",
+   "title": "Commissioning the VX-40 variable frequency drive",
+   "text": "The VX-40 drive controls pump and fan motors up to 45 kilowatts. Enter the motor nameplate data in parameters P1.01 to P1.05: rated voltage, current, frequency, speed and power. Run the auto-tune routine with the motor uncoupled. Set the acceleration time in P2.10 to at least 10 seconds for pumps to avoid water hammer. Enable PID control in P4.01 for constant-pressure applications."
+  },
+  {
+   "id": "VFD-702",
+   "title": "VX-40 fault F-07: DC bus overvoltage",
+   "text": "Fault F-07 appears when the DC bus voltage rises above its limit, usually during fast deceleration of a high-inertia load such as a large fan. Increase the deceleration time in P2.11, or fit the optional braking resistor VX-BR-400. Check that the supply voltage is not consistently above 440 volts."
+  },
+  {
+   "id": "VFD-703",
+   "title": "VX-40 fault F-12: motor phase loss",
+   "text": "Fault F-12 indicates that one of the three output phases is missing. Inspect the motor cable and terminal box for loose connections or a burnt terminal. Measure insulation resistance with a 500 volt megger; values below 1 megaohm indicate a damaged cable or winding. Never megger the motor with the drive still connected."
+  },
+  {
+   "id": "VFD-704",
+   "title": "Energy savings with VX-40 drives on pumps",
+   "text": "Pump power varies with the cube of speed. Reducing speed by 20 per cent cuts power to about half. On a pump that is throttled with a valve for most of the day, fitting a VX-40 drive and opening the valve fully typically pays back within one to two years. Use the built-in energy counter in parameter P9.20 to verify savings."
+  },
+  {
+   "id": "SAF-801",
+   "title": "Personal protective equipment in the pump house",
+   "text": "Wear safety shoes, safety glasses and ear protection in the pump house at all times. Noise near running compressors exceeds 85 dB(A), the limit for unprotected exposure over a shift. When handling chemical dosing pumps, add chemical-resistant gloves and a face shield. Loose clothing and jewellery are not allowed near rotating shafts."
+  },
+  {
+   "id": "SAF-802",
+   "title": "Working at height on overhead pipework",
+   "text": "Use a full-body harness attached to a certified anchor point for any work more than 1.8 metres above the floor. Ladders may be used only for short tasks with three points of contact. A permit to work signed by the area supervisor is required for all work on overhead pipework."
+  },
+  {
+   "id": "QA-901",
+   "title": "Warranty claims for NF and RC equipment",
+   "text": "Warranty covers manufacturing defects for 18 months from dispatch or 12 months from commissioning, whichever is earlier. Wear parts such as seals, filters, impellers in slurry service and separator elements are excluded. To raise a claim, send the serial number, running hours, photographs and the commissioning report to the service desk within 15 days of the failure."
+  },
+  {
+   "id": "QA-902",
+   "title": "Spare parts ordering",
+   "text": "Order genuine spare parts through the customer portal or from the regional service centre in Coimbatore. Always quote the equipment serial number. Standard lead time is three working days for stocked items such as filters and seal kits, and four to six weeks for impellers and airend assemblies. Keep at least one seal kit and one filter set per installed machine as site stock."
+  },
+  {
+   "id": "QA-903",
+   "title": "Service contact and escalation",
+   "text": "For breakdowns, call the 24-hour service line. If an engineer has not contacted you within four hours, escalate to the regional service manager. Annual maintenance contracts include two preventive visits a year, priority response within 24 hours and a 10 per cent discount on spare parts."
+  }
+ ],
+ "questions": [
+  {
+   "q": "What does alarm E-214 mean on the compressor?",
+   "gold": [
+    "TRB-501"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "Which seal kit part number fits the NF-200?",
+   "gold": [
+    "SPEC-301",
+    "SOP-102"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "What should I do about fault F-07 on the drive?",
+   "gold": [
+    "VFD-702"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "How often should the RC-AF-090 filter be changed?",
+   "gold": [
+    "SOP-403",
+    "SPEC-601"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "E-117 keeps appearing, what should I check?",
+   "gold": [
+    "TRB-502"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "What is the impeller part number for the NF-350?",
+   "gold": [
+    "SPEC-302"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "Which parameter sets the acceleration time on the VX-40?",
+   "gold": [
+    "VFD-701"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "What is alarm E-305?",
+   "gold": [
+    "TRB-505"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "What does F-12 indicate?",
+   "gold": [
+    "VFD-703"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "Which oil goes into the RC-75?",
+   "gold": [
+    "SOP-402",
+    "SPEC-601"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "What is the rated flow of the NF-200?",
+   "gold": [
+    "SPEC-301"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "Which braking resistor is available for the VX-40?",
+   "gold": [
+    "VFD-702"
+   ],
+   "type": "exact"
+  },
+  {
+   "q": "The pump sounds like it has stones rattling inside. What is happening?",
+   "gold": [
+    "TRB-203"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "The motor on our water pump is getting too hot and switching itself off.",
+   "gold": [
+    "TRB-204"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "Our pump is spinning but nothing comes out of the pipe.",
+   "gold": [
+    "TRB-201"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "There is moisture coming out of the air tools in the workshop.",
+   "gold": [
+    "TRB-504"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "The machine shakes a lot when running, how do I diagnose it?",
+   "gold": [
+    "TRB-202"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "How do I make sure nobody can switch the machine on while I repair it?",
+   "gold": [
+    "SOP-105"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "Can I save electricity by slowing down a pump?",
+   "gold": [
+    "VFD-704"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "Water keeps dripping near the shaft after we fitted a new seal.",
+   "gold": [
+    "TRB-205"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "Air pressure never reaches the set point even though the machine is running.",
+   "gold": [
+    "TRB-503"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "What safety gear do I need near the compressors?",
+   "gold": [
+    "SAF-801"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "How long do we have to report a broken part to get it replaced for free?",
+   "gold": [
+    "QA-901"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "Nobody from service has called back after our breakdown. Who do I contact?",
+   "gold": [
+    "QA-903"
+   ],
+   "type": "paraphrase"
+  },
+  {
+   "q": "How much grease goes into the pump bearings?",
+   "gold": [
+    "SOP-103"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What are the steps to start an NF-200 pump each morning?",
+   "gold": [
+    "SOP-101"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "How do I set the impeller gap on the slurry pump?",
+   "gold": [
+    "SOP-104"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What checks are needed every day on the screw compressor?",
+   "gold": [
+    "SOP-401"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "When should the oil be changed on the RC-75?",
+   "gold": [
+    "SOP-402",
+    "SPEC-601"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "How do I replace the mechanical seal on the NF-200?",
+   "gold": [
+    "SOP-102"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What is the warranty period for a new compressor?",
+   "gold": [
+    "QA-901"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "How long does it take to get a new impeller?",
+   "gold": [
+    "QA-902"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What harness rules apply when working on high pipes?",
+   "gold": [
+    "SAF-802"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What should I enter when commissioning the VX-40 drive?",
+   "gold": [
+    "VFD-701"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What vibration level on a pump bearing needs investigation?",
+   "gold": [
+    "TRB-202"
+   ],
+   "type": "general"
+  },
+  {
+   "q": "What discharge pressure should the RC-75 be set to?",
+   "gold": [
+    "SOP-401",
+    "SPEC-601"
+   ],
+   "type": "general"
+  }
+ ]
+}

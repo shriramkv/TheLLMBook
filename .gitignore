@@ -1,0 +1,17 @@
+input.txt
+*.pt
+*.png
+runs/
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+*.wav
+!chapter-10/samples/*.wav
+results_*.csv
+summary.csv
+ragas_records.json
+ragas_scores.csv
+run_log.json
+lora_results.json
+snapshots.json
+kalam.ttf

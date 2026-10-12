@@ -1,11 +1,20 @@
 numpy>=1.24
 torch>=2.1
 matplotlib>=3.7
-transformers>=4.40   # Chapter 1 lab
+transformers>=4.40   # Chapters 1 and 8
 tiktoken>=0.7        # Chapter 4 lab, Part B
-pydantic>=2.6        # Chapter 5
+pydantic>=2.6        # Chapters 5 and 10
 pyyaml>=6.0          # Chapter 5
 jinja2>=3.1          # Chapter 5
-# Optional, for live model calls in Chapter 5:
-# anthropic
-# openai
+rank_bm25>=0.2.2     # Chapters 7, 8 and 10
+wordllama>=0.4       # Chapters 7, 8 and 10 (small embedding model, weights included)
+openai>=1.40         # Chapters 7 to 10 (also works with Ollama and vLLM)
+pillow>=10.0         # Chapter 10 samples
+# Optional, install for the parts you run:
+# anthropic                                     # Chapters 5 and 7, Anthropic API
+# peft trl datasets bitsandbytes accelerate     # Chapter 6 Part B (GPU)
+# ragas>=0.2,<0.4 langchain-openai              # Chapter 7 Part C
+# langchain langchain-openai llama-index        # Chapter 8, Section 8.2
+# vllm                                          # Chapter 8, Mode 4 (Linux GPU server)
+# mcp>=2 langgraph                              # Chapter 9
+# openai-whisper coqui-tts                      # Chapter 10 Part B (needs ffmpeg, espeak-ng)

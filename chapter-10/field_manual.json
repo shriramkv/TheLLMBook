@@ -1,0 +1,20 @@
+{"docs": [
+ {"id": "AHU-01", "title": "Air handling unit fan belt: inspection and replacement",
+  "text": "Inspect AHU fan belts monthly. Replace a belt that shows cracks across the inner ribs, a glazed shiny surface, frayed edges or missing chunks. A squeal at start-up usually means the belt is slipping because tension is low or the belt is glazed. Before touching the drive, isolate the AHU at the local isolator and apply your lock and tag. Belts on multi-belt drives are always replaced as a matched set, never singly. The AHU-300 series uses two B52 V-belts, stores code AB-B52-MS. After fitting, set tension so the belt deflects 16 millimetres for every metre of span when pressed firmly at the centre. Recheck tension after 24 hours of running, because new belts stretch."},
+ {"id": "AHU-02", "title": "Air handling unit filters",
+  "text": "Change AHU pre-filters every three months, or when the pressure gauge across the filter bank reads above 250 pascals. Bag filters are changed every twelve months. Record the gauge reading before and after the change on the job card. Dispose of used filters in sealed bags."},
+ {"id": "AHU-03", "title": "Air handling unit pulley alignment",
+  "text": "Misaligned pulleys wear one edge of the belt and cause noise. Check alignment with a straight edge across both pulley faces; the gap must not exceed 1 millimetre. Uneven wear on one side of a belt means alignment must be corrected before a new belt is fitted, or the new belt will fail within weeks."},
+ {"id": "LFT-01", "title": "Lift landing door not closing fully",
+  "text": "If a landing door stops short or reopens, first clean the door sill track of grit and debris with a vacuum and brush. Check the door safety edge and light curtain for damage or dirt. Never bridge or bypass a door contact to keep a lift running. If the fault remains, take the lift out of service and inform the supervisor."},
+ {"id": "LFT-02", "title": "Lift overspeed governor",
+  "text": "Overspeed governor tests and adjustments are carried out only by a certified lift engineer, with the lift out of service. Field technicians must not adjust the governor or its tripping speed. Report any governor rope wear seen during routine visits."},
+ {"id": "CHL-01", "title": "Chiller high head pressure trip",
+  "text": "A high head pressure trip on an air-cooled chiller is most often caused by dirty condenser coils, failed condenser fans or high ambient temperature. Clean coils from the inside out with low-pressure water. Check that every condenser fan runs. Do not reset the trip more than twice in one hour without finding the cause."},
+ {"id": "PMP-01", "title": "Booster pump noise and pressure fluctuation",
+  "text": "A booster pump that sounds like gravel passing through it is cavitating. Check that the suction tank level is above the low-level mark, that the suction strainer is clean and that the suction valve is fully open. Pressure that keeps rising and falling with a cavitating pump usually settles once the suction side is corrected."},
+ {"id": "SAF-01", "title": "Isolation, lock and tag",
+  "text": "Before working on any motor-driven equipment, switch off and isolate it, apply your personal lock and a tag with your name and date, and test that it cannot start. Only the person who applied a lock may remove it."},
+ {"id": "ELE-01", "title": "Corrosion in electrical panels",
+  "text": "Photograph any corrosion inside an electrical panel and report it the same day. Do not clean or touch components inside a live panel. Corrosion near the base of a panel often means water entry; check the cable glands and the roof or ceiling above."}
+]}

@@ -1,6 +1,6 @@
 # Generative AI and Large Language Models: companion code
 
-Code for the sample chapters of *Generative AI and Large Language Models: Concepts, Architectures and Hands-on Applications*
+Code for Chapters 1 to 10 of *Generative AI and Large Language Models: Concepts, Architectures and Hands-on Applications*
 (Dr. Shriram K. Vasudevan, Arun G K, Subashri Vasudevan).
 
 ## Setup
@@ -29,6 +29,29 @@ Code for the sample chapters of *Generative AI and Large Language Models: Concep
 | chapter-05 | structured.py | 5.4 | pydantic |
 | chapter-05 | load_prompt.py, prompts/*.yaml | 5.5 | pyyaml, jinja2 |
 | chapter-05 | providers.py, workbench.py, claims_eval.jsonl | 5.8, Lab 5.1 | run `python workbench.py stub` offline, or `anthropic` / `openai` with an API key |
+| chapter-06 | lora_experiment.py, data/licences_*.txt | 6.3, 6.7, Lab 6.1 Part A, Table 6.7, Figure 6.4 | torch; copy mini_gpt.py, minigpt.pt and input.txt from chapter-03 (about 12 min on a CPU) |
+| chapter-06 | sec_6_2_memory_estimator.py | 6.2, Table 6.4 | none |
+| chapter-06 | make_sample_data.py, data/train.jsonl, data/valid.jsonl | 6.4 | none |
+| chapter-06 | lab_6_1_part_b_qlora.py | 6.5, Lab 6.1 Part B | GPU with 16 GB or more; transformers, peft, trl, datasets, bitsandbytes, accelerate |
+| chapter-07 | make_corpus.py, nilgiri_kb.json | 7.7 | none (the knowledge base is already included) |
+| chapter-07 | rag_pipeline.py, stopwords.txt | 7.3, 7.4, 7.7 | rank_bm25, wordllama; shared by Parts B and C and by chapters 8 and 10 |
+| chapter-07 | lab_7_1_part_a_retrieval.py | 7.4, Lab 7.1 Part A, Tables 7.5 and 7.6, Figure 7.2 | rank_bm25, wordllama (under a minute) |
+| chapter-07 | lab_7_1_part_b_generate.py | Lab 7.1 Part B | run with `stub` offline, or `anthropic` / `openai` with a key; uses chapter-05/providers.py |
+| chapter-07 | lab_7_1_part_c_ragas_eval.py, test_cases.jsonl | 7.6, Lab 7.1 Part C | ragas, langchain-openai, an API key for the judge |
+| chapter-08 | sec_8_1_transformers_pipeline.py | 8.1 | transformers, accelerate, internet on first run |
+| chapter-08 | sec_8_2_frameworks.py | 8.2 | langchain, langchain-openai, llama-index, an API key |
+| chapter-08 | sec_8_3_call_with_retries.py | 8.3 | none (simulated failures) |
+| chapter-08 | sec_8_4_one_client.py | 8.4 | openai; Ollama or vLLM running |
+| chapter-08 | sec_8_5_gpu_estimator.py | 8.5, Figure 8.2, Table 8.4 | none; matplotlib for `--plot` |
+| chapter-08 | backends.py, lab_8_1_four_modes.py, not_in_kb.txt | 8.6, Lab 8.1, Table 8.6 | run with `stub` offline; then api, inprocess, ollama, vllm |
+| chapter-09 | sec_9_2_agent_loop.py | 9.2 | none offline (scripted model); openai for a live model |
+| chapter-09 | sec_9_3_mcp_po_server.py, sec_9_3_mcp_client_test.py | 9.3 | mcp (Python SDK version 2) |
+| chapter-09 | sec_9_4_langgraph_workflow.py | 9.4, Lab 9.1 exercise 4 | langgraph |
+| chapter-09 | invoice_workflow.py | 9.8, Lab 9.1, Table 9.6 | none |
+| chapter-10 | tiny_diffusion.py | 10.1, Lab 10.1 Part A, Table 10.5, Figure 10.2 | torch (about 15 s on a CPU); matplotlib for `--plot` |
+| chapter-10 | lab_10_1_part_b_assistant.py, field_manual.json, samples/ | 10.3, 10.5, Lab 10.1 Part B | openai-whisper, coqui-tts, openai, rank_bm25, wordllama; ffmpeg and espeak-ng; `--offline` to test |
+| chapter-10 | lab_10_1_part_c_job_card.py, samples/job_card.jpg | 10.2, Lab 10.1 Part C | pydantic, openai and a vision model; `--offline` to test |
+| chapter-10 | make_samples.py | 10.6 | Pillow, coqui-tts (the samples are already included) |
 
 Run each script from inside its own folder, for example:
 
@@ -36,3 +59,14 @@ Run each script from inside its own folder, for example:
     python download_data.py
     python mini_gpt.py
     python visualise_attention.py
+
+## Notes for Chapters 6 to 10
+
+- **Offline first.** Every lab has a way to run without an API key or GPU (`stub`, `--offline`, or a scripted model), so you can check the plumbing before spending anything. Stand-in outputs are labelled as such and say nothing about model quality.
+- **Model names.** Scripts that call a model take its name from the command line or an environment variable (`API_MODEL`, `OLLAMA_MODEL`, `VLLM_MODEL`, `LOCAL_HF_MODEL`, `VISION_MODEL`, `TEXT_MODEL`). Use whichever current models your provider lists.
+- **Shared code.** Chapters 8 and 10 import the Chapter 7 pipeline from `../chapter-07`, and Chapter 7 imports the provider adapters from `../chapter-05`, so keep the folders side by side.
+- **Chapter 9** needs no model at all for the main lab: the agents are rule-based stand-ins, and the exercises replace them with model calls.
+- **Chapter 10 samples** (`belt.jpg`, `job_card.jpg`, `voice_note.wav`) are synthetic, made with `make_samples.py`. Replace them with your own photographs and recordings to judge accuracy.
+- **System packages.** Whisper needs `ffmpeg`; Coqui TTS needs `espeak-ng`. On Ubuntu: `sudo apt install ffmpeg espeak-ng`; on macOS: `brew install ffmpeg espeak-ng`.
+- Libraries for fine-tuning, agents and evaluation change quickly. If an import fails, check the documentation for the version you installed; the comments in each script say which version it was written against.
+
