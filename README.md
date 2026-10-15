@@ -1,7 +1,6 @@
 # Generative AI and Large Language Models: companion code
 
-Code for Chapters 1 to 16 of *Generative AI and Large Language Models: Concepts, Architectures and Hands-on Applications*
-(Dr. Shriram K. Vasudevan, Arun G K, Subashri Vasudevan).
+This is created jointly by Shriram K Vasudevan, Subashri Vasudevan and Arun GK. 
 
 ## Setup
     python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
