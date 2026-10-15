@@ -1,0 +1,14 @@
+{
+ "career_vs_family": {
+  "effect_size_d": 0.12,
+  "p_value": 0.4022
+ },
+ "science_vs_arts": {
+  "effect_size_d": 0.79,
+  "p_value": 0.0568
+ },
+ "pleasant_insect_flower": {
+  "effect_size_d": 1.39,
+  "p_value": 0.0011
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "format": "32-bit float",
+  "bits": 32,
+  "size_kb": 3169.0,
+  "val_loss": 1.786,
+  "loss_change_pct": 0.0
+ },
+ {
+  "format": "16-bit float",
+  "bits": 16,
+  "size_kb": 1584.5,
+  "val_loss": 1.786,
+  "loss_change_pct": 0.0
+ },
+ {
+  "format": "8-bit, per channel",
+  "bits": 8,
+  "size_kb": 801.6,
+  "val_loss": 1.786,
+  "loss_change_pct": 0.0
+ },
+ {
+  "format": "4-bit, groups of 32",
+  "bits": 4,
+  "size_kb": 445.6,
+  "val_loss": 1.808,
+  "loss_change_pct": 1.2
+ },
+ {
+  "format": "3-bit, groups of 32",
+  "bits": 3,
+  "size_kb": 346.6,
+  "val_loss": 2.04,
+  "loss_change_pct": 14.2
+ },
+ {
+  "format": "2-bit, groups of 32",
+  "bits": 2,
+  "size_kb": 247.6,
+  "val_loss": 3.027,
+  "loss_change_pct": 69.5
+ }
+]

@@ -1,0 +1,301 @@
+{
+  "k": 3,
+  "n": 34,
+  "results": {
+    "dense": {
+      "paraphrase": 0.9333333333333333,
+      "lexical": 1.0,
+      "all_hit_rate": 0.9705882352941176,
+      "all_mrr": 0.9411764705882353,
+      "worst_type": 0.9333333333333333
+    },
+    "bm25": {
+      "paraphrase": 0.8666666666666667,
+      "lexical": 1.0,
+      "all_hit_rate": 0.9411764705882353,
+      "all_mrr": 0.8999437095412328,
+      "worst_type": 0.8666666666666667
+    },
+    "hybrid": {
+      "paraphrase": 0.8666666666666667,
+      "lexical": 1.0,
+      "all_hit_rate": 0.9411764705882353,
+      "all_mrr": 0.9330065359477124,
+      "worst_type": 0.8666666666666667
+    }
+  },
+  "per_q": [
+    {
+      "q": "How many days of annual leave can I carry into next year?",
+      "gold": "leave-carry",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "What is the paid time off I earn each month?",
+      "gold": "leave-annual",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "Do I need a doctor's note to take sick leave?",
+      "gold": "leave-sick",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "How long is maternity leave here?",
+      "gold": "leave-maternity",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "What's the hotel limit when I travel for work in a big city?",
+      "gold": "expense-travel",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "By when must I file my expense claim before it is rejected?",
+      "gold": "expense-claim",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "Can I claim meals without keeping the bills?",
+      "gold": "expense-perdiem",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 2,
+      "hybrid": 1
+    },
+    {
+      "q": "Is it allowed to paste customer data into an outside AI tool?",
+      "gold": "it-data",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "What approval do I need to buy something for 80 thousand rupees?",
+      "gold": "procure-po",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 22,
+      "hybrid": 9
+    },
+    {
+      "q": "What happens before a new supplier can be paid?",
+      "gold": "procure-vendor",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "Can I be let go during my first few months?",
+      "gold": "probation",
+      "type": "paraphrase",
+      "dense": 6,
+      "bm25": 1,
+      "hybrid": 2
+    },
+    {
+      "q": "How many days a week can I work remotely?",
+      "gold": "wfh-policy",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "Is there any money for home broadband when working from home?",
+      "gold": "reimburse-internet",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 2,
+      "hybrid": 1
+    },
+    {
+      "q": "Where do I take a complaint if my manager does not resolve it?",
+      "gold": "grievance",
+      "type": "paraphrase",
+      "dense": 1,
+      "bm25": 2,
+      "hybrid": 1
+    },
+    {
+      "q": "When do I have to hand back my laptop when leaving?",
+      "gold": "asset-return",
+      "type": "paraphrase",
+      "dense": 3,
+      "bm25": 19,
+      "hybrid": 9
+    },
+    {
+      "q": "per diem meals incidentals domestic travel",
+      "gold": "expense-perdiem",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "VPN multi-factor authentication remote access",
+      "gold": "it-vpn",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "password 12 characters changed every 90 days",
+      "gold": "it-password",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "referral bonus Rs 30000 six months",
+      "gold": "referral-bonus",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "purchase order above Rs 50000 department head",
+      "gold": "procure-po",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "home internet allowance Rs 1000 per month",
+      "gold": "reimburse-internet",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "annual learning budget Rs 25000 certifications",
+      "gold": "training-budget",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "carry forward 6 days lapses 31 March",
+      "gold": "leave-carry",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "notice period 60 days managers resignation",
+      "gold": "notice-period",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "maternity leave 26 weeks eligible",
+      "gold": "leave-maternity",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "sick leave 12 days medical certificate",
+      "gold": "leave-sick",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "probation 6 months 15 days notice",
+      "gold": "probation",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "work from home 2 days per week manager approval",
+      "gold": "wfh-policy",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "domestic travel economy airfare Rs 4000 per night hotel",
+      "gold": "expense-travel",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "company assets laptop access card final settlement",
+      "gold": "asset-return",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "What is Form HR-21 used for?",
+      "gold": "form-travel",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "Which form is IT-07?",
+      "gold": "form-vpn",
+      "type": "lexical",
+      "dense": 2,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "form for leave encashment approval",
+      "gold": "form-leave",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    },
+    {
+      "q": "form to request a replacement laptop",
+      "gold": "form-asset",
+      "type": "lexical",
+      "dense": 1,
+      "bm25": 1,
+      "hybrid": 1
+    }
+  ]
+}

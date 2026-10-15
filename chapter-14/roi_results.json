@@ -1,0 +1,48 @@
+{
+  "base_saving": 37380000.0,
+  "tornado": [
+    {
+      "driver": "human_cost_per_ticket",
+      "lo": -14904000.0,
+      "hi": 14904000.0
+    },
+    {
+      "driver": "tickets_per_year",
+      "lo": -13014000.000000007,
+      "hi": 13014000.0
+    },
+    {
+      "driver": "deflection_rate",
+      "lo": -13014000.0,
+      "hi": 13014000.0
+    },
+    {
+      "driver": "run_cost_per_year",
+      "lo": 1800000.0,
+      "hi": -1800000.0
+    },
+    {
+      "driver": "rework_rate",
+      "lo": 1296000.0,
+      "hi": -1296000.0
+    },
+    {
+      "driver": "ai_cost_per_ticket",
+      "lo": 1080000.0,
+      "hi": -1080000.0
+    },
+    {
+      "driver": "review_rate",
+      "lo": 810000.0,
+      "hi": -810000.0
+    }
+  ],
+  "breakdown": {
+    "human (residual)": 66000000.0,
+    "AI inference": 3600000.0,
+    "human review (QA)": 2700000.0,
+    "rework (bounced)": 4320000.0,
+    "platform + run": 6000000
+  },
+  "payback_months": 4.815409309791332
+}

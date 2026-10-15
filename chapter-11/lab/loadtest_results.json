@@ -1,0 +1,32 @@
+[
+ {
+  "concurrency": 1,
+  "p50_s": 2.73,
+  "p95_s": 2.74,
+  "throughput_rps": 0.37
+ },
+ {
+  "concurrency": 4,
+  "p50_s": 2.74,
+  "p95_s": 2.74,
+  "throughput_rps": 1.46
+ },
+ {
+  "concurrency": 8,
+  "p50_s": 2.74,
+  "p95_s": 2.76,
+  "throughput_rps": 2.92
+ },
+ {
+  "concurrency": 16,
+  "p50_s": 5.46,
+  "p95_s": 5.48,
+  "throughput_rps": 2.92
+ },
+ {
+  "concurrency": 32,
+  "p50_s": 10.93,
+  "p95_s": 10.96,
+  "throughput_rps": 2.92
+ }
+]

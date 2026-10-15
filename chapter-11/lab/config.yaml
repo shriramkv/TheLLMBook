@@ -1,0 +1,10 @@
+# Lab 11.1 service configuration. Everything that changes behaviour is pinned here and logged with every call.
+backend: stub                 # stub (offline, simulated GPU) or openai (any OpenAI-compatible endpoint, Chapter 8)
+model: support-model-2026-09-01   # pin an exact model version, never a moving alias
+prompt_version: support_v8
+price_in_per_million: 1.00    # illustrative US$ prices; replace with your provider's current prices
+price_out_per_million: 5.00
+upstream_slots: 8             # stub only: how many requests the simulated GPU decodes at once
+timeout_s: 30
+cache_ttl_s: 600              # exact-match response cache; 0 turns it off
+rate_limit_per_minute: 120    # per user
