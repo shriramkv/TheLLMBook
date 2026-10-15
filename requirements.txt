@@ -1,13 +1,24 @@
-# Companion code, Chapters 11 to 16.
-# Not every chapter needs every package; see each chapter's README.
-# Install everything with: pip install -r requirements.txt
-
 numpy>=1.24
-pyyaml>=6.0            # chapter-11 lab service config
-fastapi>=0.110         # chapter-11 lab LLM service
-uvicorn>=0.29          # chapter-11 lab, to run the service
-httpx>=0.27            # chapter-11 lab load test
-torch>=2.1             # chapter-11 MiniGPT quantisation
-wordllama>=0.3         # chapter-13 WEAT, chapter-15 hybrid retrieval
-rank-bm25>=0.2.2       # chapter-15 hybrid retrieval
-# chapter-14 (ROI) and chapter-16 (test-time compute) need only NumPy / stdlib.
+torch>=2.1
+matplotlib>=3.7
+transformers>=4.40   # Chapters 1 and 8
+tiktoken>=0.7        # Chapter 4 lab, Part B
+pydantic>=2.6        # Chapters 5 and 10
+pyyaml>=6.0          # Chapters 5 and 11
+jinja2>=3.1          # Chapter 5
+rank_bm25>=0.2.2     # Chapters 7, 8, 10 and 15
+wordllama>=0.4       # Chapters 7, 8, 10, 13 and 15 (small embedding model, weights included)
+openai>=1.40         # Chapters 7 to 10 (also works with Ollama and vLLM)
+pillow>=10.0         # Chapter 10 samples
+fastapi>=0.110       # Chapter 11 lab service
+uvicorn>=0.29        # Chapter 11 lab, to run the service
+httpx>=0.27          # Chapter 11 lab, load test
+# Optional, install for the parts you run:
+# anthropic                                     # Chapters 5 and 7, Anthropic API
+# peft trl datasets bitsandbytes accelerate     # Chapter 6 Part B (GPU)
+# ragas>=0.2,<0.4 langchain-openai              # Chapter 7 Part C
+# langchain langchain-openai llama-index        # Chapter 8, Section 8.2
+# vllm                                          # Chapter 8, Mode 4 (Linux GPU server)
+# mcp>=2 langgraph                              # Chapter 9
+# openai-whisper coqui-tts                      # Chapter 10 Part B (needs ffmpeg, espeak-ng)
+# Chapters 12, 14 and 16 need only the standard library / NumPy.
